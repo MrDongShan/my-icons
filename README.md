@@ -59,7 +59,7 @@ npm run serve
 5. 修改db.json
 
 
-# 添加icon
+# 七、添加icon
 
 1.将图片添加到/public/icon文件夹下
 2.修改db.json文件，将图片添加到对应的分组下
