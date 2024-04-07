@@ -5,7 +5,7 @@
       <h4 class="head_txt">
         提供在线图标链接，用于个人NAS设备显示使用，禁止用于商业用途
       </h4>
-      <h4 class="head_txt">开源项目，By Siriling</h4>
+      <h4 class="head_txt">开源项目，Not By DongShan</h4>
       <div class="use">
         <el-image class="use_img" :src="require('../assets/docker.png')" />
         <div class="use_txt">Docker容器</div>
@@ -83,8 +83,8 @@
       </el-space>
     </div>
     <div class="foot">
-      <div class="foot_txt">© 2023.4.18 | By Siriling</div>
-      <div class="foot_url">
+      <div class="foot_txt">© 2024.04.07 | Not By DongShan</div>
+<!--      <div class="foot_url">
         <el-popover placement="top" :width="150">
           <template #reference>
             <el-image class="foot_img" :src="require('../assets/wechat.png')" />
@@ -102,7 +102,7 @@
           :src="require('../assets/github.png')"
           @click="openUrl('https://github.com/Siriling/my-icons')"
         />
-      </div>
+      </div>-->
     </div>
   </div>
 </template>
@@ -210,7 +210,7 @@ export default defineComponent({
       //获取图片url
       let currenturl = window.location.href;
       let iconurl = data.publicPath + "icon/" + url;
-      let iconurlCdn = "https://cdn.jsdelivr.net/gh/Siriling/my-icons@main/dist/" + "icon/" + url;
+      let iconurlCdn = "https://cdn.jsdelivr.net/gh/DongShan/my-icons@main/dist/" + "icon/" + url;
       let fullurl = currenturl.substr(0, currenturl.length - 2) + iconurl;
       await toClipboard(value1.value ? iconurlCdn : fullurl);
       ElMessage({

@@ -17,11 +17,11 @@
 
 # 一、简介
 
-基于[heizicao/My Icon](https://gitee.com/heizicao/my-icon)修改，提供在线图标链接，用于个人NAS设备显示使用，禁止用于商业用途
+基于[Siriling/my-icons](https://github.com/Siriling/my-icons)修改，提供在线图标链接，用于个人NAS设备显示使用，禁止用于商业用途
 
 # 二、展示
 
-https://siriling.github.io/my-icons/dist
+https://mrdongshan.github.io/my-icons/dist
 
 ![show](public/screenshot.png)
 
